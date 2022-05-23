@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  color: #222222;
+  background-color: #eeeeee;
+}
+
+.img{
+  width: 100%;
+}
+
+#header-img{
+  width:300px;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#nav-bar{
+  width:100%;
+  margin-left: 50px;
+  padding:10px;
+  max-width: 500px;  
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #222222;
+  font-size: 16px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#submit{
+  margin-top: 20px;
+  padding: 7px 20px;
+  background-color: #f1c40f;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.features{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  width:100%;
+}
+
+i {
+  color: #FF8C00;
+  font-size: 48px;
+}
+
+.icon-box {
+  min-width: 150px;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;  
+}
+
+.text{
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#features{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.video{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
+
+h2{
+  margin: 0px ;
+}
+
+.trombone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+
+li{
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.level{
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #ddd;
+  max-width: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+spam {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
